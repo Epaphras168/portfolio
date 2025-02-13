@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epa's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="CSS/bootstrap-icons.css">  
+    
+    <!-- Favicon for Browsers -->
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+<!-- Apple Touch Icon -->
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+</head>
+<body id="body">
+    <!--Page Loader-->
+    <section id="p_loader">
+        <div class="loader">
+            <span style="--i:1;"></span>
+            <span style="--i:2;"></span>
+            <span style="--i:3;"></span>
+            <span style="--i:4;"></span>
+            <span style="--i:5;"></span>
+            <span style="--i:6;"></span>
+            <span style="--i:7;"></span>
+            <span style="--i:8;"></span>
+            <span style="--i:9;"></span>
+            <span style="--i:10;"></span>
+            <span style="--i:11;"></span>
+            <span style="--i:12;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:14;"></span>
+            <span style="--i:15;"></span>
+            <span style="--i:16;"></span>
+            <span style="--i:17;"></span>
+            <span style="--i:18;"></span>
+            <span style="--i:19;"></span>
+            <span style="--i:20;"></span>
+            
+
+        </div>
+    </section>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" alt="logo" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class=" m-icon bi bi-x-lg" onclick="closemenu()"></i>
+                    <!--<img src="images/x.png" class="m-icon" onclick="closemenu()">-->
+                </ul>
+                <i class="m-icon bi bi-list" onclick="openmenu()"></i>
+                <!--<img src="images/menu.png"  class="m-icon" onclick="openmenu()">-->
+
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I am <span>Epa</span> from Rwanda</h1>
+            </div>
+        </div>
+    </div>
+    <!--About-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/me.png" alt="image">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>In today’s fast-evolving world, 
+                        staying ahead means embracing innovation. 
+                        As a software engineer passionate about tech and music, 
+                        I create intuitive digital solutions that enhance learning and performance. 
+                        Whether you need tech for teaching, user-friendly software, 
+                        or help elevating your musical skills, I’m here to turn your ideas into impactful results
+                        </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')" >Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web design</span><br>Creating beautiful and responsive websites</li>
+                            <li><span>Network Engineer</span><br>Creating and troubleshooting a network</li>
+                            <li><span>Music Technology</span><br>Integrating technology into music education</li>
+                            <li><span>Instrument Proficiency</span><br>Guitar, Piano, Violin, Cello</li>
+                            <li><span>Software Engineering</span><br>Studying software development and coding</li>
+                            <li><span>Bilingual</span><br>Fluent in English and Ikinyarwanda</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023</span><br>Music Teacher - Private Contractor, Kigali</li>
+                            <li><span>2022 - 2023</span><br>Coaching Assistant</li>
+                            <li><span>2022 - 2023</span><br>Worship Leader</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2026 (Expected)</span><br>BSc in Software Engineering - Adventist University of Central Africa, Kigali</li>
+                            <li><span>2023</span><br>Graduated from Rafiki International School, Bugesera</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------Service------------------>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Your website is your first impression — 
+                        let’s make it unforgettable. 
+                        I design sleek, responsive websites 
+                        that captivate visitors and deliver seamless user experiences, 
+                        ensuring your brand stands out on any device.</p>
+                        <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>App Design</h2>
+                    <p>Transform your ideas into powerful, 
+                        user-friendly apps. 
+                        I design and develop intuitive mobile applications 
+                        that not only look great but deliver seamless performance, 
+                        keeping your users engaged and coming back for more.</p>
+                        <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-app-store"></i>
+                    <h2>Music</h2>
+                    <p>Unlock your musical potential and let your creativity shine. 
+                        Whether you're mastering an instrument or diving into music theory, 
+                        I offer personalized coaching that transforms your passion into skill. 
+                        Let’s create a learning experience that’s as inspiring as it is rewarding.</p>
+                        <a href="#"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- ------------portfolio------------------>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>App</h3>
+                        <p>Powerful mobile solutions in the palm of your hand. 
+                            Seamless, fast, and ready to work wherever you are.
+                        </p>
+                        <a href="#"><i class="bi bi-google-play"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Website</h3>
+                        <p>Transform your online presence with a bold, responsive design
+                        </p>
+                        <a href="#"><i class="bi bi-google"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Web App</h3>
+                        <p>Streamline your attendance with a simple, 
+                            intuitive web app. Keep track with ease and ensure accuracy every time
+                        </p>
+                        <a href="#"><i class="bi bi-clipboard-check"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+
+<!--  ---------Contact Form----------->
+    <div id="contact">
+        <div class="container">
+            <div class="contact-container">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="bi bi-envelope"></i>ishimweepa18@gmail.com</p>
+                <p><i class="bi bi-telephone"></i>+250 792 357 723</p>
+                <a href="https://github.com/Epaphras168"></a><p><i class="bi bi-github"></i></i>Github</p>
+                <a href="https://www.linkedin.com/in/epa-ishimwe/"></a><p><i class="bi bi-linkedin"></i>Linkedin</p>
+                <!--Social Icon container-->
+                <!--
+                <div class="social-icons">
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-twitter-x"></i>
+                    <i class="bi bi-linkedin"></i>
+                    
+                    
+                </div>
+            -->
+                <a href="images/Epa's Resume.pdf" download class="btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message" ></textarea>
+                    <button type="submit" class="btn3">Submit</button>
+                </form>
+                <span id="message"></span>
+            </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Epa Ishimwe.</p>
+        </div>
+    </div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents =  document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(let tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(let tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+
+        }
+        event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+
+    }
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px"
+    }
+
+</script>
+<!--Contact form to google form-->
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxWG5q0mt90NDa4sgUuthfPYVV9qffifyUPGrALwFANP0bRBcekje-pMa6rfR1EibnO_A/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const message = document.getElementById("message")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            message.innerHTML = "Message sent Successfully"
+            setTimeout(function(){
+                message.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+    // Wait for the full page to load
+    window.onload = function() {
+        document.getElementById("p_loader").style.display = "none"; // Hide loader
+        document.getElementById("body").style.display = "block"; // Show content
+    };
+});
+
+  </script>
+
+</body>
+</html>
