@@ -279,13 +279,16 @@
   </script>
   <!-- Loader Script Debug -->
     <script>
-    var loader = document.getElementById("preloader");
-      
-    window.addEventListener("load",function(){
-        loader.style.display = "none";
-    })
-
-  </script>
+        window.addEventListener("DOMContentLoaded", function() {
+            var loader = document.getElementById("preloader");
+            var content = document.getElementById("content");
+            
+            setTimeout(() => {
+                loader.style.display = "none";
+                content.style.display = "block";
+            }, 1500); // 1.5 seconds delay to simulate content loading
+        });
+    </script>
 
 
 </body>
