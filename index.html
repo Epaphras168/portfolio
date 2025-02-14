@@ -17,7 +17,7 @@
 </head>
 <body>
     <!--Page Loader-->
-    <div id="preloader">
+    <!--<div id="preloader">-->
         <div class="loader">
             <span style="--i:1;"></span>
             <span style="--i:2;"></span>
@@ -42,7 +42,7 @@
             
 
         </div>
-    </div>
+    
     <div id="content">
     <div id="header">
         <div class="container">
@@ -280,7 +280,8 @@
   <!-- Loader Script Debug -->
     <script>
         window.addEventListener("DOMContentLoaded", function() {
-            var loader = document.getElementById("preloader");
+            //var loader = document.getElementById("loader");
+            var loader  =document.getElementByClass("loader");
             var content = document.getElementById("content");
             
             setTimeout(() => {
