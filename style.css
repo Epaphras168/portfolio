@@ -60,7 +60,7 @@ div .loader span::before{
         transform: scale(0);
     }
     80%, 100%{
-        transform: scale(0);
+        transform: scale(1);
     }
 }
 
