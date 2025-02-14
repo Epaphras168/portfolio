@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-#p_loader{
+#preloader{
     display: flex;
     justify-content: center;
     align-items: center;
