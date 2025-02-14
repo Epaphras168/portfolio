@@ -276,14 +276,13 @@
     })
   </script>
   <script>
-    //Contact form to google form
-    var loader = document.getElementById("preloader");
-      
-    window.addEventListener("load",function(){
-        loader.style.display = "none";
-    })
+    document.addEventListener("DOMContentLoaded", function() {
+        var load = document.getElementById("preloader");
+        load.style.display = "none";
+        console.log("DOMContentLoaded triggered");
+    });
+</script>
 
-  </script>
 
 </body>
 </html>
