@@ -57,7 +57,7 @@ div .loader span::before{
 }
 @keyframes animate{
     0%{
-        transform: scale(1);
+        transform: scale(0);
     }
     80%, 100%{
         transform: scale(0);
