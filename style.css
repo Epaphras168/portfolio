@@ -13,7 +13,7 @@
     min-height: 100vh;
     background: #000000;
 }
-.loader{
+div .loader{
     position: relative;
     width: 120px;
     height: 120px;
@@ -27,7 +27,7 @@
         filter: hue-rotate(360deg);
     }
 }
-.loader span{
+div .loader span{
     position: absolute;
     top: 0;
     left: 0;
@@ -35,7 +35,7 @@
     height: 100%;
     transform: rotate(calc(18deg * var(--i)));
 }
-.loader span::before{
+div .loader span::before{
     content: '';
     position: absolute;
     top: 0;
