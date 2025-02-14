@@ -6,14 +6,19 @@
     box-sizing: border-box;
 }
 
-#preloader{
+/*#preloader{
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     background: #000000;
-}
+}*/
 div .loader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #000000;
     position: relative;
     width: 120px;
     height: 120px;
