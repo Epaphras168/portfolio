@@ -17,9 +17,9 @@
     position: relative;
     width: 120px;
     height: 120px;
-    animation: animateGG 10s linear infinite;
+    animation: animateBG 10s linear infinite;
 }
-@keyframes animanteBG{
+@keyframes animateBG{
     0%{
         filter: hue-rotate(0deg);
     }
