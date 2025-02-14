@@ -278,19 +278,15 @@
     })
   </script>
   <!-- Loader Script Debug -->
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            var load = document.getElementById("preloader");
-            var container = document.getElementById("content");
-            if (load && container) {
-                load.style.display = "none";
-                container.style.display = "flex";
-                console.log("DOMContentLoaded triggered: Loader hidden, content visible.");
-            } else {
-                console.error("Error: Preloader or content container not found.");
-            }
-        });
-    </script>
+   <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var load = document.getElementById("preloader");
+        var container = document.getElementById("content");
+        load.style.display = "none";
+        container.style.display = "flex";
+        console.log("DOMContentLoaded triggered");
+    });
+</script>
 
 
 </body>
